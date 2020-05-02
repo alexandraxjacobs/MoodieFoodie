@@ -23,11 +23,11 @@ with open('user_info.csv', 'r') as user_info:
         user_name = (', '.join(row))
         #take this ', '  
     if user_name:
-        print ('Hello, ' + user_name)
+        print ("Hello, M'lady -tips fedora-, " + user_name)
     else:
         print ('Enter your name:')
         user_name = input ()
-        print ('Hello, ' + user_name) 
+        print ("Hello M'lady, " + user_name) 
 # if user_name is not an empty string
     # go ahead and print "hello " {user_name}
 # else ask the user for their name
